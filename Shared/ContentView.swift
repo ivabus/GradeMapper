@@ -35,23 +35,28 @@ struct ContentView: View {
 					ForEach([String](coof.keys), id: \.self) {
 						subjectSN in Text("\(subjectSN)")
 					}
-				}.pickerStyle(.wheel)
+				}
+					.pickerStyle(.wheel)
 				VStack{
 					Picker("Оценка", selection: $selectedGrade){
 						ForEach(Grade.allCases, id: \.self) {
 							currGrade in Text("\(currGrade.rawValue)")
 						}
 					}
-				}.pickerStyle(.segmented).padding(.horizontal, 20)
-			}.padding(.top, 100)
+				}
+					.pickerStyle(.segmented)
+					.padding(.horizontal, 20)
+			}
+				.padding(.top, 100)
 			Button ("Добавить оценку"){
 				counter.multiplier = coof[selectedTypeOfGrade]!
 				counter.gradesWeighted += Double(selectedGrade.rawValue) * counter.multiplier
 				counter.weightsSum += counter.multiplier
 				self.sr = (counter.gradesWeighted / counter.weightsSum)
-			}.buttonStyle(.borderedProminent)
-		  Text(String("Средний балл: \(self.sr)"))
-			  .fontWeight(.bold)
+			}
+				.buttonStyle(.borderedProminent)
+			Text(String("Средний балл: \(self.sr)"))
+				.fontWeight(.bold)
 			Button ("Очистить"){
 				counter.multiplier = 1.5
 				counter.gradesWeighted = 0
@@ -59,9 +64,7 @@ struct ContentView: View {
 				self.sr = 0
 			}.buttonStyle(.borderedProminent)
 		}
-		.padding(.top, -155.0)
-		
-		
+			.padding(.top, -155.0)
 	}
 }
 struct ContentView_Previews: PreviewProvider {
