@@ -54,7 +54,7 @@ struct SubjectView: View {
 				print(ow.multiplier)
 				self.srr = ow.sr
 			}.buttonStyle(.borderedProminent)
-		  Text(String(self.srr))
+		  Text(String("Средний балл: \(self.srr)"))
 			  .fontWeight(.bold)
 		}
 		.padding(.top, -155.0)
