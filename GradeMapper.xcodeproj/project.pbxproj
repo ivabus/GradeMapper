@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F7E91CD279615A200CB18B7 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E91CC279615A200CB18B7 /* SubjectView.swift */; };
 		4FEB3F0F2795DFE90005C604 /* GradeMapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB3EFF2795DFE80005C604 /* GradeMapperApp.swift */; };
 		4FEB3F112795DFE90005C604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB3F002795DFE80005C604 /* ContentView.swift */; };
 		4FEB3F132795DFE90005C604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB3F012795DFE90005C604 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F7E91CC279615A200CB18B7 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
 		4FD40DBC279702A900A5A6D2 /* GradeMapper (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GradeMapper (iOS).entitlements"; sourceTree = "<group>"; };
 		4FEB3EFF2795DFE80005C604 /* GradeMapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeMapperApp.swift; sourceTree = "<group>"; };
 		4FEB3F002795DFE80005C604 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 				4FEB3EFF2795DFE80005C604 /* GradeMapperApp.swift */,
 				4FEB3F002795DFE80005C604 /* ContentView.swift */,
 				4FEB3F012795DFE90005C604 /* Assets.xcassets */,
-				4F7E91CC279615A200CB18B7 /* SubjectView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEB3F112795DFE90005C604 /* ContentView.swift in Sources */,
-				4F7E91CD279615A200CB18B7 /* SubjectView.swift in Sources */,
 				4FEB3F0F2795DFE90005C604 /* GradeMapperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5PQ7AR4DP;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -289,7 +286,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -302,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5PQ7AR4DP;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -322,7 +320,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
