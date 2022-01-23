@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-| <img alt="iPhone Light" src="Screenshots/iPhoneLight.png?raw=true" width="400"/> | <img alt="iPhone Dark" src="Screenshots/iPhoneDark.png?raw=true" width="400"/>
-|
-|-|-|
-| ![iPad Light](Screenshots/iPadLight.png?raw=true) | ![iPad Dark](Screenshots/iPadDark.png?raw=true) |
+<img alt="iPhone Light" src="Screenshots/iPhoneLight.png?raw=true" width="400"/> <img alt="iPhone Dark" src="Screenshots/iPhoneDark.png?raw=true" width="400"/>
+
+<img alt="iPad Light" src="Screenshots/iPadLight.png?raw=true" width="500"/> <img alt="iPad Dark" src="Screenshots/iPadDark.png?raw=true" width="500"/>
+
