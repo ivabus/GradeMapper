@@ -4,7 +4,7 @@
 
 Версия на [Python + PyQt](https://github.com/br-netw/GradeMapper)
 
-## Screenshots
+## Скриншоты
 
 <img alt="iPhone Light" src="Screenshots/iPhoneLight.png?raw=true" width="400"/> <img alt="iPhone Dark" src="Screenshots/iPhoneDark.png?raw=true" width="400"/>
 
